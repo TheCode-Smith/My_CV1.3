@@ -79,7 +79,46 @@
     </table>
 
     <h2>Projects</h2>
+    <hr>
+    <h3>Project 1</h3>
+    <h3>Project 2</h3>
+    <h3>Project 3</h3>
+    <br>
 
+    <!-- contact form -->
+    <h2>Let's get in touch! </h2>
+    <hr>
+
+    <form action="#">
+      <!-- name field -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+      <br>
+      <!-- email field -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email">
+      <br>
+      <!-- drop down menu for reason of contact -->
+      <label for="reason">Reason for Contact:</label>
+      <select id="reason" name="reason" required>
+        <option value="">Select a reason</option>
+        <option value="job">Job Inquiry</option>
+        <option value="project">Project Collaboration</option>
+        <option value="feedback">Feedback</option>
+      </select>
+      <br>
+      <!-- slider for how much user likes to code -->
+      <label for="interest"></label>
+      How much do you like to code? &#128557<input type="range" id="interest" name="interest" min="0" max="100" value="50">&#128512
+      <br>
+      <!-- message field -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+      <br>
+      <!-- submit and clear button -->
+       <button type="reset">Clear</button>
+      <button type="submit">Submit</button>
+    </form>
 
   </body>
 </html>
